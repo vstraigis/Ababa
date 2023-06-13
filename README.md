@@ -41,6 +41,18 @@ This guide will walk you through the steps to deploy the ABABA movie application
 
 ## Deployment Steps
 
+**On Linux and MacOS:**
+
+   Run the following commands in the terminal:
+
+   ```bash
+   bash deploy.sh
+   ```
+
+   This will build the Docker images, start the containers and apply the database migrations.
+
+**On Windows:**
+
 1. **Configure environment variables**
 
    In the `back-ababa-movie` directory, create an `.env` file with the following content:
