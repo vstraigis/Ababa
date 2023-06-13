@@ -1,0 +1,21 @@
+.moviesWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.moviesContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+/* text */
+.moviesGreeting {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}

@@ -1,0 +1,15 @@
+.button {
+    background-color: #ff715b;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 150px;
+  }
+  .button:hover {
+    background-color: #ff8676;
+  }
+  .button:active {
+    transform: scale(0.95);
+  }
+  

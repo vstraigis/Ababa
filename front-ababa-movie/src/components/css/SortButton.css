@@ -1,0 +1,10 @@
+.buttonSort {
+    padding: 0.5rem;
+    border-radius: 25px;
+    background-color: #56ab2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    font-size: 1rem;
+  }
