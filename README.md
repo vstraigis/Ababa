@@ -1,4 +1,36 @@
-# ABABA Movie App Deployment Guide
+# ABABA Movie App
+
+ABABA Movie App is a web application that allows users to organize and manage their favorite films. Using a comprehensive database of films, users can easily search for movies, pick their favorites, and create a personalized library of movies they love. 
+
+## Features
+
+- **Search for movies**: The app provides an extensive database of films, making it easy for users to find the movies they're looking for.
+- **Add favorite movies**: Users can pick their favorite movies and add them to their personalized favorites page. If a movie is already in their favorites, they can remove it with a single click. Also users can add their own movies if they do not exist in current database .
+- **Rate movies**: Users can rate the movies they've added to their favorites, providing an easy way to remember the films they enjoyed the most.
+- **Write overviews**: Users can write short overviews about the movies they've added to their favorites, summarizing their thoughts and impressions.
+- **Sort**: The app provides sorting by year and rating, making it easy for users to find their favorite films in their library.
+- **Implemented search**: Users can quickly search for movies among their picked favorites using the built-in search functionality.
+
+## Usage
+
+Once the app is deployed, simply navigate to the app in your web browser and create an account or log in. Search for movies using the search bar and add them to your favorites by clicking the "Add to Favorites" button. Your favorite movies will be displayed on your favorites page, where you can rate them, write overviews, and sort them by year and rating for easy access.
+
+Discover and organize your favorite movies with the ABABA Movie App!
+
+## Technology Stack
+
+ABABA Movie App uses a modern, efficient, and robust technology stack to provide a seamless and enjoyable experience for its users.
+
+- **React with Vite**: The frontend of the application is built using React, a popular and powerful JavaScript library for building user interfaces. Vite is used as the build tool and development server, providing fast development and optimized production builds.
+- **Node.js**: The backend of the application runs on Node.js, a JavaScript runtime that allows for executing JavaScript code on the server-side, providing excellent performance and scalability.
+- **Express.js**: Express.js is a minimal and flexible web application framework for Node.js, used to build the backend API for the ABABA Movie App. It simplifies server-side development and allows for easy integration with various middleware and database solutions.
+- **PostgreSQL**: The application uses PostgreSQL, a powerful, enterprise-class, open-source relational database system. PostgreSQL provides excellent performance, reliability, and a robust feature set, making it a great choice for storing the application's data.
+- **Prisma ORM**: Prisma is a next-generation ORM (Object-Relational Mapping) . It simplifies database access and management by providing a high-level, easy-to-use API for querying and manipulating the data. In ABABA Movie App, Prisma is used to interact with the PostgreSQL database.
+
+The combination of these technologies ensures that the ABABA Movie App delivers a high-quality user experience, efficient performance, and a stable, maintainable codebase.
+
+# Deployment Guide
+
 
 This guide will walk you through the steps to deploy the ABABA movie application using Docker and Docker Compose.
 
