@@ -16,9 +16,12 @@ This guide will walk you through the steps to deploy the ABABA movie application
    ```
    DATABASE_URL="postgresql://breakme:gimmeajob@db:5432/ababamovies"
    JWT_SECRET="2023SaipVISAIniekoTasDARBASbutuKaZn@20011105"
+   OMDB_API_KEY="
    ```
 
    Replace the `JWT_SECRET` value with a suitable secret key for your application.
+
+   Replace the `OMDB_API_KEY` value with your own API key from [OMDb API](http://www.omdbapi.com/).
 
 2. **Build Docker images**
 
