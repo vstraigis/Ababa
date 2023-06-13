@@ -41,7 +41,7 @@ This guide will walk you through the steps to deploy the ABABA movie application
 
 ## Deployment Steps
 
-**On Linux:**
+**On Linux and MacOS:**
 
    Run the following commands in the terminal:
 
