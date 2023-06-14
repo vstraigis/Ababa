@@ -17,7 +17,7 @@ Once the app is deployed, simply navigate to the app in your web browser and cre
 
 Discover and organize your favorite movies with the ABABA Movie App!
 
-**Authentication with JWT**
+## Authentication with JWT
 
 The ABABA Movie App implements authentication using JSON Web Tokens (JWT). This means that users need to create an account and log in to access the features and functionalities of the application.
 
