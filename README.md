@@ -17,6 +17,18 @@ Once the app is deployed, simply navigate to the app in your web browser and cre
 
 Discover and organize your favorite movies with the ABABA Movie App!
 
+**Authentication with JWT**
+
+The ABABA Movie App implements authentication using JSON Web Tokens (JWT). This means that users need to create an account and log in to access the features and functionalities of the application.
+
+When a user successfully logs in, they receive a JWT token, which is stored in the browser's local storage. This token is then used to authenticate subsequent API requests. The token contains a secure and encrypted payload that includes information about the user, such as their user ID and role.
+
+The JWT token is sent in the header of each API request as a bearer token, allowing the backend to verify the user's identity and authorize their actions.
+
+If a request is made without a valid JWT token or with an expired token, the backend will respond with an authentication error, and the user will be prompted to log in again.
+
+By implementing authentication with JWT, the ABABA Movie App ensures that only authorized users can access and manage their favorite films, adding an extra layer of security to the application.
+
 ## Technology Stack
 
 ABABA Movie App uses a modern, efficient, and robust technology stack to provide a seamless and enjoyable experience for its users.
